@@ -1,0 +1,18 @@
+[project]
+name = "yielddesk"
+version = "0.1.0"
+description = "Plain-English questions about Government of Canada bond yields, answered with Claude and Bank of Canada data"
+requires-python = ">=3.12"
+dependencies = ["anthropic>=2.12", "fastapi>=0.165", "uvicorn[standard]>=0.38", "pydantic>=2.14", "httpx>=0.28"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "mypy>=1.18"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[tool.mypy]
+strict = true
+files = ["yielddesk"]
+plugins = ["pydantic.mypy"]

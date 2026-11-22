@@ -1,0 +1,30 @@
+{"question": "What's the 10-year yield right now?", "today": "2026-11-20", "expected": {"intent": "latest", "series": ["10y"], "start": null, "end": null}}
+{"question": "Where is the Bank of Canada's policy rate today?", "today": "2026-11-20", "expected": {"intent": "latest", "series": ["policy_rate"], "start": null, "end": null}}
+{"question": "Give me the latest 2-year and 10-year yields.", "today": "2026-11-20", "expected": {"intent": "latest", "series": ["2y", "10y"], "start": null, "end": null}}
+{"question": "Current 30-year Canada yield?", "today": "2026-11-20", "expected": {"intent": "latest", "series": ["long"], "start": null, "end": null}}
+{"question": "How much did the 10-year move this week?", "today": "2026-11-20", "expected": {"intent": "change", "series": ["10y"], "start": "2026-11-16", "end": "2026-11-20"}}
+{"question": "How did 2-year yields change last week?", "today": "2026-11-20", "expected": {"intent": "change", "series": ["2y"], "start": "2026-11-09", "end": "2026-11-13"}}
+{"question": "How far have 5-year yields moved this month?", "today": "2026-11-20", "expected": {"intent": "change", "series": ["5y"], "start": "2026-11-01", "end": "2026-11-20"}}
+{"question": "What did the 10-year do in October?", "today": "2026-11-20", "expected": {"intent": "change", "series": ["10y"], "start": "2026-10-01", "end": "2026-10-31"}}
+{"question": "How much have long bond yields changed year to date?", "today": "2026-11-20", "expected": {"intent": "change", "series": ["long"], "start": "2026-01-01", "end": "2026-11-20"}}
+{"question": "Change in the 2y and 10y over the past 3 months", "today": "2026-11-20", "expected": {"intent": "change", "series": ["2y", "10y"], "start": "2026-08-20", "end": "2026-11-20"}}
+{"question": "How did rates move last month?", "today": "2026-11-20", "expected": {"intent": "change", "series": ["10y"], "start": "2026-10-01", "end": "2026-10-31"}}
+{"question": "How much has the overnight rate changed this year?", "today": "2026-11-20", "expected": {"intent": "change", "series": ["policy_rate"], "start": "2026-01-01", "end": "2026-11-20"}}
+{"question": "How did the 7-year move in 2025?", "today": "2026-11-20", "expected": {"intent": "change", "series": ["7y"], "start": "2025-01-01", "end": "2025-12-31"}}
+{"question": "Real return bond yield change over the past year", "today": "2026-11-20", "expected": {"intent": "change", "series": ["real_return"], "start": "2025-11-20", "end": "2026-11-20"}}
+{"question": "Is the curve steepening this month?", "today": "2026-11-20", "expected": {"intent": "spread", "series": ["10y", "2y"], "start": "2026-11-01", "end": "2026-11-20"}}
+{"question": "Where's 2s10s now versus a month ago?", "today": "2026-11-20", "expected": {"intent": "spread", "series": ["10y", "2y"], "start": "2026-10-20", "end": "2026-11-20"}}
+{"question": "Was the yield curve inverted at any point in 2024?", "today": "2026-11-20", "expected": {"intent": "spread", "series": ["10y", "2y"], "start": "2024-01-01", "end": "2024-12-31"}}
+{"question": "How has the 5s30s spread moved year to date?", "today": "2026-11-20", "expected": {"intent": "spread", "series": ["long", "5y"], "start": "2026-01-01", "end": "2026-11-20"}}
+{"question": "What's the spread between the 10-year and the policy rate over the past 6 months?", "today": "2026-11-20", "expected": {"intent": "spread", "series": ["10y", "policy_rate"], "start": "2026-05-20", "end": "2026-11-20"}}
+{"question": "2s5s spread last week", "today": "2026-11-20", "expected": {"intent": "spread", "series": ["5y", "2y"], "start": "2026-11-09", "end": "2026-11-13"}}
+{"question": "Did the curve un-invert in 2025?", "today": "2026-11-20", "expected": {"intent": "spread", "series": ["10y", "2y"], "start": "2025-01-01", "end": "2025-12-31"}}
+{"question": "What was the high and low for the 10-year this year?", "today": "2026-11-20", "expected": {"intent": "range", "series": ["10y"], "start": "2026-01-01", "end": "2026-11-20"}}
+{"question": "Trading range of 2-year yields in September 2026", "today": "2026-11-20", "expected": {"intent": "range", "series": ["2y"], "start": "2026-09-01", "end": "2026-09-30"}}
+{"question": "What was the average 5-year yield last month?", "today": "2026-11-20", "expected": {"intent": "range", "series": ["5y"], "start": "2026-10-01", "end": "2026-10-31"}}
+{"question": "Highest 30-year yield over the past 2 years", "today": "2026-11-20", "expected": {"intent": "range", "series": ["long"], "start": "2024-11-20", "end": "2026-11-20"}}
+{"question": "Where will the 10-year be next month?", "today": "2026-11-20", "expected": {"intent": "unsupported", "series": [], "start": null, "end": null}}
+{"question": "What's the US 10-year Treasury yield?", "today": "2026-11-20", "expected": {"intent": "unsupported", "series": [], "start": null, "end": null}}
+{"question": "How have 5-year fixed mortgage rates moved this year?", "today": "2026-11-20", "expected": {"intent": "unsupported", "series": [], "start": null, "end": null}}
+{"question": "What did the TSX do this week?", "today": "2026-11-20", "expected": {"intent": "unsupported", "series": [], "start": null, "end": null}}
+{"question": "How did Canada 10-year yields move in 2008?", "today": "2026-11-20", "expected": {"intent": "unsupported", "series": [], "start": null, "end": null}}
