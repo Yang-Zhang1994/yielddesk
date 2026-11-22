@@ -16,3 +16,6 @@ testpaths = ["tests"]
 strict = true
 files = ["yielddesk"]
 plugins = ["pydantic.mypy"]
+
+[tool.setuptools]
+packages = ["yielddesk"]
